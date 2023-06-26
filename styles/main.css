@@ -1,0 +1,255 @@
+/* Global styles */
+body {
+  font-family: monospace, sans-serif;
+  margin: 2;
+  padding: 2;
+  position: relative;
+}
+
+body::before {
+  content: '';
+  background-image: url('../styles/img/Sharkbg.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  opacity: 0.7; /* Set the opacity value */
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Header styles */
+header {
+  background-color: #3444a0;
+  color: #fff;
+  padding: 20px;
+  margin: 0;
+}
+
+h1 {
+  margin: 0;
+}
+
+nav.right-align {
+  text-align: right;
+  margin: 0;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  color: #f7f7f7;
+  text-decoration: none;
+}
+
+nav.right-align li {
+  display: inline-block;
+  margin-right: 80px; /* Adjust this value to increase or decrease the space */
+}
+
+nav.right-align li:last-child {
+  margin-right: 0; /* Remove the right margin for the last item */
+}
+
+nav.right-align a {
+  text-decoration: none;
+  color: #e6e6e6;
+  font-size: 20px; /* Adjust this value to increase or decrease the text size */
+}
+
+nav.right-align a:hover {
+  color: rgb(0, 0, 0); /* Apply hover color */
+}
+
+/* Blog post styles */
+#blog-post {
+  /*id class*/
+  margin-bottom: 20px;
+}
+
+.post-title {
+  color: #ffffff;
+  margin: 20px auto;
+  text-align: center;
+  font-size: 50px; /**adjust the text size*/
+}
+
+.post-meta {
+  color: #fafafa;
+  margin: 0 auto 10px;
+  text-align: center;
+}
+
+.post-image {
+  max-width: 15%;
+  height: auto;
+  margin: 0 auto 10px;
+  display: block;
+}
+
+#unlisted {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* make bullet points line up perfectly underneath each other*/
+  text-align: center;
+  padding-left: 0;
+}
+
+#unlisted li {
+  margin-bottom: 10px;
+  list-style-position: inside;
+  text-align: center;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto; /* */
+}
+
+/*Paragraph styles*/
+#my-paragraph {
+  width: 70%; /* Adjust the width as desired */
+  text-align: center; /* align text to center of the page*/
+  margin: 20px auto; /* assign margin with a 20px auto limit*/
+  display: block; /* assign specific position and layout to this class*/
+  font-size: 30px; /* size of text */
+  color: rgb(0, 0, 0); /* color of text */
+  text-transform: uppercase; /* assign uppercase to this class */
+}
+
+#my-paragraph strong {
+  font-weight: bold;
+}
+
+.paragraph2 {
+  width: 70%; /* adjust the width */
+  text-align: center; /* align text to center of page */
+  margin: 20px auto; /* assign margin with a 20px auto limit */
+  font-size: 25px; /* size of text */
+  color: rgb(5, 0, 105); /* color of text */
+}
+
+/* Footer styles */
+footer {
+  background-color: #344aad;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer-section {
+  width: 93%;
+  padding: 0.5px 30px 20px;
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+}
+
+.icons a {
+  text-decoration: none;
+  padding: 10px;
+  background-color: rgb(43, 49, 143);
+  margin: 10px;
+  border-radius: 40%;
+}
+
+.icons a i {
+  color: white;
+  font-size: 2em;
+}
+
+/* Hover effect icons*/
+.icons a:hover {
+  background-color: #fff;
+  transition: 0.6s;
+}
+
+.icons a:hover i {
+  color: rgb(33, 34, 37);
+  transition: 0.6s;
+}
+
+.design {
+  opacity: 0.8;
+  letter-spacing: 0.8px;
+  margin: 0px 5px;
+}
+
+/* Hover effect icons*/
+.icons a:hover {
+  background-color: #fff;
+  transition: 0.6s;
+}
+
+.icons a:hover i {
+  color: rgb(33, 34, 37);
+  transition: 0.6s;
+}
+
+.design {
+  opacity: 0.8;
+  letter-spacing: 0.8px;
+  margin: 0px 5px;
+}
+/* Form style*/
+form {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+input[type='text'],
+textarea {
+  width: 60%; /* change width size of text input */
+  padding: 10px; /* change text input size */
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+input[type='submit'] {
+  background-color: #354bca;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  align-self: flex-start;
+  margin-top: 10px;
+}
+input[type='submit']:hover {
+  background-color: #000000;
+}
+
+.center-image {
+  display: flex;
+  justify-content: center;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 600px) {
+  .container {
+    padding: 10px;
+  }
+}
