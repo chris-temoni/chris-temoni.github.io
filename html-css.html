@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Blog</title>
+    <link href=".\styles\main.css" rel="stylesheet" type="text/css" />                                                                                                                                                                                                                          
+    <link rel="icon" type="image/png" href="img/shark.png" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" 
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+ 
+  </head>
+  <body>
+    <header>
+      <h1>My Blog</h1>
+
+      <nav class="right-align">
+
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+
+      <div id="blog-post">
+        <h2 class="post-title">Classes vs Ids</h2>
+        <p id="my-paragraph">What is Classes?</p>
+        <p class="paragraph2">In HTML, classes are attriutes which can be assigned to elements to group them together depending on the purpose. it is used 
+        to apply different styles or target certain elements with the use of CSS</p>
+
+        <p id="my-paragraph">Step 1: HTML</p>
+        <p class="paragraph2">Give your <code>"p"</code> element the class <code>"paragraph2"</code></p>
+      <div class="center-image">
+        <img src="\\wsl.localhost\Ubuntu\home\chris\devacademy\chris-temoni.github.io\img\id.png" alt="my own image">
+      </div> 
+
+        <p id="my-paragraph">Step 2: CSS</p>
+        <p class="paragraph2">Navigate to your css file and add a class.</p>
+        <p class="paragraph2">NOTE: when adding a class we would add the "." symbol along with the class name, along with the style of the paragraph e.g., width of the paragraph, font alignment of the text, margin of the text, the text size, and the color of the text, example indicated in the image below:</p>
+      <div class="center-image">       
+        <img src="\\wsl.localhost\Ubuntu\home\chris\devacademy\chris-temoni.github.io\img\class.png" alt="my own image">
+      </div>
+
+        <p id="my-paragraph">Result</p>
+        <p class="paragraph2">As you can see, the output of the result has been defined by the class we created, with the text color being white, the text alignment being centered and the margin of 20px auto limit, and the text being 25px in size. NOTE: the blue background is a part of the body image and the outline border is a part of the actual image and not the class we created.</p>
+      <div class="center-image">
+        <img src="\\wsl.localhost\Ubuntu\home\chris\devacademy\chris-temoni.github.io\img\output.png" alt="my own image">
+      </div>
+
+        <p id="my-paragraph">What is Id?</p>
+        <p class="paragraph2">Quiet similar to classes but a selector is used mainly to select an element(s) with a certain identifier. 
+        it is symbolized by the # symbol followed by an identifier name. so the HTML element "id" attribute serves 
+        as a special indentification number</p>
+
+        <p id="my-paragraph">Step 1: HTML</p>
+        <p class="paragraph2">Give your <code>"p"</code> element the id <code>"my-paragraph"</code></p>
+      <div class="center-image">
+        <img src="\\wsl.localhost\Ubuntu\home\chris\devacademy\chris-temoni.github.io\img\id2.png" alt="my own image">
+      </div>
+        
+        <p id="my-paragraph">Step 2: CSS</p>
+        <p class="paragraph2">Navigate to your css file and add a class.</p>
+        <p class="paragraph2">Once we have assigned the class with its own style setting we can now view our results in the browser. NOTE: sytle settings descriptions can be found in the image</p>
+      <div class="center-image">       
+        <img src="\\wsl.localhost\Ubuntu\home\chris\devacademy\chris-temoni.github.io\img\class2.png" alt="my own image">
+      </div>
+
+      <p id="my-paragraph">Result</p>
+      <p class="paragraph2">As you can see, the output of the result has been defined by the id we created, NOTE: the blue background is a part of the body image and the outline border is a part of the actual image and not the class we created.</p>
+    <div class="center-image">
+      <img src="\\wsl.localhost\Ubuntu\home\chris\devacademy\chris-temoni.github.io\img\output2.png" alt="my own image">
+    </div>
+      
+       
+      <div>  
+        <p class="post-meta">Published on June 25, 2023</p>
+      </div>
+
+    </main>
+    <footer>
+      <div class="footer-section">
+
+        <p class="paragraph2">my social media links</p>
+ 
+        <div class="icons">
+        <a href="https://www.youtube.com/@brosukig1967/videos"><i class="fa-brands fa-youtube"></i></a>
+        <a href="https://www.tiktok.com/@brosuki1"><i class="fa-brands fa-tiktok"></i></a>
+        <a href="https://www.twitch.tv/namethatguy"><i class="fa-brands fa-twitch"></i></a>
+        <a href="https://www.facebook.com/brosuki1/"><i class="fa-brands fa-facebook"></i></a>
+        </div>
+      <div class="bottom-footer">
+        <p>Copyright &copy;2023 Designed by <span class="design">Chris
+      </div>
+      </div>
+    </footer>
+  </body>
+</html>
