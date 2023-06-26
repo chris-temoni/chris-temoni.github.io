@@ -92,11 +92,6 @@ nav.right-align a:hover {
   font-size: 50px; /**adjust the text size*/
 }
 
-.image-class {
-  width: 200px;
-  border: 1px solid black;
-}
-
 .post-meta {
   color: #fafafa;
   margin: 0 auto 10px;
