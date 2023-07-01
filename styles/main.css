@@ -131,6 +131,7 @@ nav.right-align a:hover {
   align-items: center; /* make bullet points line up perfectly underneath each other*/
   text-align: center;
   padding-left: 0;
+  font-size: 30px;
 }
 
 #unlisted li {
