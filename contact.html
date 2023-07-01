@@ -10,6 +10,9 @@
     integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   </head>
   <body>
+    
+    <div id="preloader"></div>
+
     <header>
       <h1>My Blog</h1>
       <nav class="right-align">
@@ -57,5 +60,14 @@
       </div>
       </div>
     </footer>
+
+    <script>
+      let loader = document.getElementById("preloader")
+  
+      window.addEventListener("load", function(){
+        loader.style.display = "none"
+      })
+    </script>
+
   </body>
 </html>

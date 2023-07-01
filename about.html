@@ -10,6 +10,9 @@
     integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   </head>
   <body>
+
+    <div id="preloader"></div>
+
     <header>
       <h1>My Blog</h1>
       <nav class="right-align">
@@ -20,25 +23,30 @@
         </ul>
       </nav>
     </header>
-
     <main>
+
       <div id="blog-post">
-        <h2 class="post-title">ABOUT ME</h2>
-        
-      
+        <h2 class="post-title">MY LOCATION</h2>
+        <div class="map-align">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d99730.42094133732!2d177.89573212835452!3d-38.63564210757918!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6d65c09c41b0ac97%3A0x500ef6143a29907!2sGisborne!5e0!3m2!1sen!2snz!4v1688208187198!5m2!1sen!2snz" width="1500" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>    
+        <h2 class="post-title">ABOUT ME</h2>  
         <p id="my-paragraph">NAME:</p> 
           <p class="paragraph2">Chris Temoni</p> 
-        <p id="my-paragraph">AGE:</p> 
+        
+          <p id="my-paragraph">AGE:</p> 
           <p class="paragraph2">35 years of age</p>
-        <p id="my-paragraph">HOME GROUP</p>
+        
+          <p id="my-paragraph">HOME GROUP</p>
           <p class="paragraph2">Mako</p> 
-        <p id="my-paragraph">WHERE YOU STAY?:</p>
+        
+          <p id="my-paragraph">WHERE YOU STAY?:</p>
           <p class="paragraph2">Currently live Gisborne and have been in Gisborne for over 10 years.</p>
-        <p id="my-paragraph">DESCRIPTION:</p><p class="paragraph2">Im currently studying a bahelors degree in computer systems, i have two weeks left to go from 4years of studying this degree from databases, systems architecture, operating systems, cyber security, Geographic information systems, digital forensics, mechatronics and much more
+        
+          <p id="my-paragraph">DESCRIPTION:</p>
+          <p class="paragraph2">Im currently studying a bahelors degree in computer systems, i have two weeks left to go from 4years of studying this degree from databases, systems architecture, operating systems, cyber security, Geographic information systems, digital forensics, mechatronics and much more
           before that I had studied level 1- 4 computing systems, level 4 business administration and diploma in computer systems and IT.</p>
-        <p id="my-paragraph">GOALS:</p> 
-          <p class="paragraph2">Short term goal is to keep learnning in the IT space environment and gain as much knowledge as i can
-          long term goal is to hopefully one day become a manager of an IT department</p>
+      
         <p id="my-paragraph">INTREST:</p>
           <p class="paragraph2">In my spare time i help with family and friends fix, build, and upgrade there laptop or desktop device systems both software and hardware i also love gaming, video editing and going to the gym.
           so far i have enjoyed the devacademy course and what it has to offer everything is new to me in terms of web dev both git and github etc. and cant wait for the challenges ahead.</p>
@@ -65,5 +73,14 @@
       </div>
       </div>
     </footer>
+    
+    <script>
+    let loader = document.getElementById("preloader")
+
+    window.addEventListener("load", function(){
+      loader.style.display = "none"
+    })
+  </script>
+
   </body>
 </html>
