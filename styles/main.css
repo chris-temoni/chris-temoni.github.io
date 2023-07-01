@@ -21,6 +21,26 @@ body::before {
   z-index: -1;
 }
 
+/* image styles */
+.center-image {
+  display: flex;
+  justify-content: center;
+}
+
+#border-image {
+  border: 2px solid #000;
+  padding: 5px;
+}
+
+/* code styles */
+code {
+  background-color: lightgray;
+  padding: 2px 4px;
+  font-family: Consolas, monospace;
+  font-size: 14px;
+  color: rgb(145, 38, 38);
+}
+
 .container {
   max-width: 1200px;
   margin: 0 auto;
@@ -122,6 +142,10 @@ nav.right-align a:hover {
   margin-right: auto; /* */
 }
 
+.ul {
+  list-style-type: decimal;
+}
+
 /*Paragraph styles*/
 #my-paragraph {
   width: 70%; /* Adjust the width as desired */
@@ -143,6 +167,11 @@ nav.right-align a:hover {
   margin: 20px auto; /* assign margin with a 20px auto limit */
   font-size: 25px; /* size of text */
   color: rgb(12, 19, 97); /* color of text */
+}
+
+.paragraph2 code {
+  margin-right: 5px;
+  margin-left: 5px;
 }
 
 /* Footer styles */
@@ -240,11 +269,6 @@ input[type='submit'] {
 }
 input[type='submit']:hover {
   background-color: #000000;
-}
-
-.center-image {
-  display: flex;
-  justify-content: center;
 }
 
 /* Responsive styles */
