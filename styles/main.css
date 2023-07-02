@@ -307,8 +307,13 @@ input[type='submit']:hover {
 }
 
 /* Responsive styles */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 600px) {
   .container {
     padding: 10px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .container {
+    padding: 5px;
   }
 }
