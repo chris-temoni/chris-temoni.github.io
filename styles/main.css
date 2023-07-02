@@ -313,9 +313,15 @@ input[type='submit']:hover {
   }
 }
 @media screen and (max-width: 320px) {
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
   .container {
     padding: 10px;
     max-width: 280px;
+    margin: 0 auto;
   }
 
   .logo {
