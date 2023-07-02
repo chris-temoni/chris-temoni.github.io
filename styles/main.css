@@ -314,15 +314,10 @@ input[type='submit']:hover {
 }
 @media screen and (max-width: 320px) {
   .container {
-    padding: 5px;
+    padding: 10px;
   }
 
   .logo {
-    margin-top: 5px;
-    max-width: 60%;
-  }
-
-  nav ul li {
-    margin: 3px 0;
+    margin-left: 10px;
   }
 }
