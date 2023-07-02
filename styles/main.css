@@ -34,6 +34,27 @@ body::before {
 .center-image {
   display: flex;
   justify-content: center;
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.center-image img {
+  max-width: 100%;
+  height: auto;
+}
+
+.logo {
+  max-width: 100px;
+  border-radius: 20%;
+  margin-left: 150px;
+  position: relative;
+  margin-bottom: -80px;
+  top: -45px; /* Adjust this value as needed */
+}
+
+.responsive-image {
+  max-width: 100%;
+  height: auto;
 }
 
 #border-image {
@@ -69,14 +90,6 @@ h1 {
   margin: 0;
 }
 
-.logo {
-  max-width: 100px;
-  border-radius: 20%;
-  margin-left: 150px;
-  position: relative;
-  margin-bottom: -80px;
-  top: -45px; /* Adjust this value as needed */
-}
 nav.right-align {
   text-align: right;
   margin: 0;
