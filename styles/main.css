@@ -59,14 +59,23 @@ code {
 header {
   background-color: #3444a0;
   color: #fff;
-  padding: 20px;
+  padding: 10px;
   margin: 0;
+  align-items: center;
 }
 
 h1 {
   margin: 0;
 }
 
+.logo {
+  max-width: 100px;
+  border-radius: 20%;
+  margin-left: 150px;
+  position: relative;
+  margin-bottom: -80px;
+  top: -45px; /* Adjust this value as needed */
+}
 nav.right-align {
   text-align: right;
   margin: 0;
@@ -140,19 +149,36 @@ nav.right-align a:hover {
   text-align: center;
   padding-left: 0;
   font-size: 30px;
+  list-style: none; /*none removes bulletpoints*/
 }
 
 #unlisted li {
   margin-bottom: 10px;
-  list-style-position: inside;
-  text-align: center;
-  width: fit-content;
-  margin-left: auto;
-  margin-right: auto; /* */
 }
 
-.ul {
-  list-style-type: decimal;
+#unlisted li a {
+  display: block;
+  width: 400px;
+  padding: 10px;
+  text-decoration: none;
+  background-color: #eeeeee;
+  color: #000000;
+  border-radius: 5px;
+  margin: 0 auto;
+  transition: background-color 0.3s ease;
+  position: relative;
+}
+
+#unlisted li a:hover {
+  background-color: #0d00c9;
+  color: #fff;
+}
+
+#unlisted li a::after {
+  content: attr(data-date); /*Display data-date*/
+  font-size: 12px;
+  margin-top: 5px;
+  display: block;
 }
 
 /*Paragraph styles*/
