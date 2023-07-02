@@ -316,4 +316,12 @@ input[type='submit']:hover {
   .container {
     padding: 5px;
   }
+
+  .logo {
+    margin-top: 5px;
+  }
+
+  nav ul li {
+    margin: 3px 0;
+  }
 }
