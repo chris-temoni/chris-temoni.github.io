@@ -322,12 +322,12 @@ input[type='submit']:hover {
 }
 
 /* Responsive styles */
-@media screen and (max-width: 600px) {
+@media all and (max-width: 600px) {
   .container {
     padding: 10px;
   }
 }
-@media screen and (max-width: 320px) {
+/*@media screen and (max-width: 320px) {
   body {
     margin: 0;
     padding: 0;
@@ -347,4 +347,4 @@ input[type='submit']:hover {
     max-width: 100%;
     height: auto;
   }
-}
+}*/
