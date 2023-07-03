@@ -9,7 +9,7 @@ body {
 
 body::before {
   content: '';
-  background-image: linear-gradient(to bottom, rgba(0, 0, 255, 0.637), blue);
+  background-image: url('../img/sharkbg.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 100% 100%;
@@ -142,6 +142,9 @@ nav.right-align a:hover {
   margin: 20px auto;
   text-align: center;
   font-size: 50px; /**adjust the text size*/
+  font-family: 'Pacifico', cursive;
+  text-transform: uppercase; /*testing*/
+  text-shadow: 2px, 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 .post-meta {
@@ -160,11 +163,13 @@ nav.right-align a:hover {
 #unlisted {
   display: flex;
   flex-direction: column;
-  align-items: center; /* make bullet points line up perfectly underneath each other*/
   text-align: center;
   padding-left: 0;
   font-size: 30px;
   list-style: none; /*none removes bulletpoints*/
+  color: #ffffff;
+  font-family: 'Pacifico', cursive;
+  text-shadow: 0 0 4px #000000, 0 0 8px #000000;
 }
 
 #unlisted li {
@@ -176,8 +181,8 @@ nav.right-align a:hover {
   width: 400px;
   padding: 10px;
   text-decoration: none;
-  background-color: #eeeeee;
-  color: #000000;
+  background-color: #3444a0;
+  color: #ffffff;
   border-radius: 5px;
   margin: 0 auto;
   transition: background-color 0.3s ease;
@@ -185,8 +190,8 @@ nav.right-align a:hover {
 }
 
 #unlisted li a:hover {
-  background-color: #0d00c9;
-  color: #fff;
+  background-color: #ffffff;
+  color: #3444a0;
 }
 
 #unlisted li a::after {
@@ -204,7 +209,10 @@ nav.right-align a:hover {
   display: block; /* assign specific position and layout to this class*/
   font-size: 30px; /* size of text */
   color: rgb(0, 0, 0); /* color of text */
+  font-family: 'Open Sans', sans-serif;
   text-transform: uppercase; /* assign uppercase to this class */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5),
+    -2px -2px 4px rgba(255, 255, 255, 0.5);
 }
 
 #my-paragraph strong {
@@ -216,7 +224,10 @@ nav.right-align a:hover {
   text-align: center; /* align text to center of page */
   margin: 20px auto; /* assign margin with a 20px auto limit */
   font-size: 25px; /* size of text */
-  color: rgb(12, 19, 97); /* color of text */
+  color: #ffffff; /* color of text */
+  font-family: 'Open Sans', sans-serif;
+  text-shadow: 0 0 4px rgba(0, 0, 0, 1), 0 0 8px rgba(0, 0, 0, 1),
+    0 0 12px rgba(0, 0, 0, 1);
 }
 
 .paragraph2 code {
@@ -245,7 +256,7 @@ footer {
 .icons a {
   text-decoration: none;
   padding: 10px;
-  background-color: rgb(43, 49, 143);
+  background-color: #3444a0;
   margin: 10px;
   border-radius: 40%;
 }
@@ -270,6 +281,7 @@ footer {
   opacity: 0.8;
   letter-spacing: 0.8px;
   margin: 0px 5px;
+  color: #ffffff;
 }
 
 /* Hover effect icons*/
