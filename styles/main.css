@@ -242,12 +242,16 @@ nav.right-align a:hover {
   font-size: 25px; /* size of text */
   color: #f2f5f7; /* color of text */
   font-family: 'Open Sans', sans-serif;
-  text-shadow: 0px 0px 6px rgba(139, 0, 0, 1), -0px -0px 4px rgba(139, 0, 0, 1);
+  text-shadow: 0px 0px 4px rgba(0, 0, 0, 1), 0px 0px 4px rgba(0, 0, 0, 1);
 }
 
 .paragraph2 code {
   margin-right: 5px;
   margin-left: 5px;
+}
+
+.contactColor {
+  color: #f2f5f7;
 }
 
 /* Footer styles */
@@ -346,6 +350,43 @@ input[type='submit'] {
 }
 input[type='submit']:hover {
   background-color: #000000;
+}
+
+/* Table Sytles */
+
+/* Table Font Sytle */
+
+.my-table {
+  width: 70%;
+  border-collapse: collapse;
+  margin: 10px auto; /* center the table */
+}
+
+.my-table th,
+.my-table td {
+  padding: 8px;
+  text-align: center;
+  border-bottom: 1px solid #f2f5f7;
+  font-family: 'Pacifico', cursive;
+}
+
+/* Theme colors */
+.blood-red {
+  background-color: #b30000;
+  color: #fff;
+  outline: 1px solid #000;
+}
+
+.black {
+  background-color: #000;
+  color: #f2f5f7;
+  outline: 1px solid #f2f5f7;
+}
+
+.sand-white {
+  background-color: #f4f4f4;
+  color: #000;
+  outline: 1px solid #000;
 }
 
 /* Responsive styles */
